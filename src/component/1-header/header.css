@@ -1,0 +1,102 @@
+header.flex{
+    justify-content: space-between;
+    padding: 0 1.8rem;
+    margin-top: 1.2rem;
+}
+header.flex nav {
+    background-color: var(--bgHeader);
+    padding: 0.75rem 1.6rem;
+    border-radius:50px ;
+}
+header ul {
+    gap: 16px;
+}
+header ul li a {
+    color: var(--title);
+    opacity: 0.9;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+header ul li a:hover{
+    color: var(--blue);
+    opacity: 1;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+header .menu{
+    display: none;
+}
+/*icons*/
+header .icon-menu, header .mood{
+    background-color: var(--bgHeader);
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--sub-title);
+    border: 1px solid rgba(250, 128, 114, 0.197);
+    transition: 0.2s;
+}
+header .icon-menu:hover, header .mood:hover{
+    color: var(--title);
+    border: 1px solid rgb(250, 128, 114);
+}
+header .icon-close{
+    font-size: 1.5rem;
+    color: var(--sub-title);
+    transition: 0.3s;
+}
+header .icon-close:hover{
+    color: crimson;
+    font-size: 1.65rem;
+    rotate: 180deg;
+}
+/* modal == pop up*/
+header .fixed{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(16, 17, 23, 0.782);
+    backdrop-filter: blur(4px);
+}
+@keyframes closeAnim {
+    0% {scale: 0;}
+    60% {scale: 1.2;}
+    100% {scale: 1;}
+    
+}
+header .fixed ul.modal{
+    animation:closeAnim 0.3s 1 ;
+    width: 75%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--scondary);
+}
+header .fixed ul.modal li {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 0;
+}
+header .fixed ul.modal li:first-child{
+    text-align: right;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0.2rem;
+    margin-bottom: -1rem;
+}
+header .fixed ul.modal li:last-child{
+    border: none;
+}
+.icon-sun{
+    color: rgba(244, 165, 0);
+    font-size: 25px;
+}
+
+
+@media (max-width: 700px) {
+    header.flex nav {display: none;}
+    header .menu{
+        display: block;
+    };
+    
+}
