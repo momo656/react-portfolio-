@@ -49,5 +49,8 @@ section.hero .all-icons .icon:hover {
 @media (max-width: 600px) {
  .right-section{
   display: none;
+   section.hero .avatar {
+  width: 50%;
+ }
  }
 }
