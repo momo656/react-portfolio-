@@ -28,7 +28,7 @@ export default function Header() {
       <nav>
         <ul className="flex">
           <li>
-            <a href="">About</a>
+            <a href="#hero">About</a>
           </li>
           <li>
             <a href="">Articles</a>
@@ -37,7 +37,7 @@ export default function Header() {
             <a href="">Projects</a>
           </li>
           <li>
-            <a href="">Speaking</a>
+            <a href="https://about.me/mohamed.abdelsalam">About Me</a>
           </li>
           <li>
             <a href="">Contact</a>
@@ -77,7 +77,7 @@ export default function Header() {
               <a href="">Projects</a>
             </li>
             <li>
-              <a href="">Speaking</a>
+              <a href="https://about.me/mohamed.abdelsalam">About Me</a>
             </li>
             <li>
               <a href="">Contact</a>
