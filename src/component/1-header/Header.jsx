@@ -34,13 +34,13 @@ export default function Header() {
             <a href="">Articles</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="https://about.me/mohamed.abdelsalam">About Me</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -68,19 +68,19 @@ export default function Header() {
               />
             </li>
             <li>
-              <a href="">About</a>
+              <a href="#hero">About</a>
             </li>
             <li>
               <a href="">Articles</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="https://about.me/mohamed.abdelsalam">About Me</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
