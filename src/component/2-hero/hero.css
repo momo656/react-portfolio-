@@ -30,8 +30,9 @@ section.hero p.sub-title {
   color: var(--sub-title);
   margin-bottom: 32px;
 }
-section.hero .all-icons {
+section.hero .all-icons .icon {
   gap: 1.5rem;
+  margin-left: 8px;
   font-size: 1.3rem;
   color: var(--sub-title);
 }
@@ -49,8 +50,8 @@ section.hero .all-icons .icon:hover {
 @media (max-width: 600px) {
  .right-section{
   display: none;
-   section.hero .avatar {
-  width: 50%;
  }
+ section.hero .avatar {
+  width: 80%;
  }
 }
