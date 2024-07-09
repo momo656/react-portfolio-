@@ -39,7 +39,7 @@ export default function Main() {
     seAtrr(newArr);
   };
   return (
-    <main className="flex">
+    <main id="projects" className="flex">
       <section className="flex section-left">
         <button
           onClick={() => {
