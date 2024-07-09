@@ -9,9 +9,9 @@ export default function Hero() {
           <img src="./me.png" className="avatar" alt="" />
           <div className="icon-verified"></div>
         </div>
-        <h1 className="title">Software designer.</h1>
+        <h1 className="title">Software engineer.</h1>
         <p className="sub-title">
-          I’m Mohamed Abdelsalm, a software designer . I specialize in crafting
+          I’m Mohamed Abdelsalm, a software engineer. I specialize in crafting
           impactful websites for small and medium-sized businesses. From custom
           designs to responsive e-commerce solutions, I provide tailored
           services to enhance your online presence and drive results.
