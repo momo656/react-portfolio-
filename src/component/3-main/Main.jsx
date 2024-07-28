@@ -26,6 +26,14 @@ const myProjects = [
     git: "https://github.com/momo656/Product-management-project",
     link: "https://momo656.github.io/Product-management-project/",
   },
+  {
+    title: "Admin Dashboard",
+    category: "react",
+    img: "./pro.png",
+    pra: "Efficiently manage products with our system: Create detailed entries, add multiple products in a single step, edit or delete as needed. Powerful search and bulk deletion streamline your workflow. Optimize your product management with ease.",
+    git: "https://github.com/momo656/admin-dashboard",
+    link: "https://vercel.com/momo656s-projects/admin-dashboard/Hg5vTW1iY4GLTMZtHKd9s7YXQhdp",
+  },
 ];
 
 export default function Main() {
