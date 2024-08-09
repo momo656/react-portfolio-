@@ -38,7 +38,7 @@ const myProjects = [
     title: "Travel Landing Page",
     category: "react",
     img: "./Travel.png",
-    pra: "I have adapted the station page and designed it attractively for tourism. The exclusive page for popular tourist destinations features attractive images and multiple booking options. The performance and user experience have also been improved across devices. The page also contains a subscription form and contact details to attract potential customers.",
+    pra: "I have adapted the station page and designed it attractively for tourism. The exclusive page for popular tourist destinations features attractive images and multiple booking options. The page also contains a subscription form and contact details to attract potential customers.",
     git: "https://travel-landingpage-rho.vercel.app/",
     link: "https://travel-landingpage-rho.vercel.app/",
   },
