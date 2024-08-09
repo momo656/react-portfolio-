@@ -34,6 +34,14 @@ const myProjects = [
     git: "https://github.com/momo656/admin-dashboard",
     link: "https://vercel.com/momo656s-projects/admin-dashboard/Hg5vTW1iY4GLTMZtHKd9s7YXQhdp",
   },
+  {
+    title: "Travel Landing Page",
+    category: "react",
+    img: "./Travel.png",
+    pra: "I have adapted the station page and designed it attractively for tourism. The exclusive page for popular tourist destinations features attractive images and multiple booking options. The performance and user experience have also been improved across devices. The page also contains a subscription form and contact details to attract potential customers.",
+    git: "https://travel-landingpage-rho.vercel.app/",
+    link: "https://travel-landingpage-rho.vercel.app/",
+  },
 ];
 
 export default function Main() {
