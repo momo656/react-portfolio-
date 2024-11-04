@@ -32,7 +32,7 @@ const myProjects = [
     img: "./dashboard.png",
     pra: "Efficiently manage products with our system: Create detailed entries, add multiple products in a single step, edit or delete as needed. Powerful search and bulk deletion streamline your workflow. Optimize your product management with ease.",
     git: "https://github.com/momo656/admin-dashboard",
-    link: "https://vercel.com/momo656s-projects/admin-dashboard/Hg5vTW1iY4GLTMZtHKd9s7YXQhdp",
+    link: "https://admin-dashboard-amber-seven-84.vercel.app/",
   },
   {
     title: "Travel Landing Page",
